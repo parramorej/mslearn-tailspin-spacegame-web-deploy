@@ -9,4 +9,4 @@ GO
 UPDATE DBO.Profiles
 SET favoriteMap='Pinwheel'
 WHERE CAST((id) AS int) % 3 = 2
-GO 
+GO
